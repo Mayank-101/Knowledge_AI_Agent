@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 2. Add your API key in `.streamlit/secrets.toml` file:
     ```plaintext
-    GEMINI_API_KEY= your_api_key
+    GEMINI_API_KEY= "your_api_key"
     ```
 
 4. Prepare audio hardware for voice input.
