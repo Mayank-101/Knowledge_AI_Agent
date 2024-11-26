@@ -30,7 +30,7 @@ whisper_model = whisper.load_model("base")
 
 st.set_page_config(page_title="Samvidhaan Sathi Chatbot", page_icon="💬", layout="centered")
 
-st.title("Prodigal AI's 💼 Samvidhaan Sathi - Your Trusted Companion for Constitutional Clarity!")
+st.title("Prodigal AI's 💼 Samvidhaan Sathi!")
 st.write("Ask me questions about Indian Constitution!")
 st.markdown("<hr>", unsafe_allow_html=True)
 
