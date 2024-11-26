@@ -1,4 +1,4 @@
-# Ask your PDF
+# Knowledge_AI_Agent
 
 This application is a chatbot framework that enables users to interact with a specified document or set of documents through both text and voice inputs. It leverages semantic embeddings and large language models (LLM) to provide contextually accurate answers, Whisper for speech-to-text (STT) conversion, and gTTS for text-to-speech (TTS) output. Built with Streamlit, this chatbot allows users to ask questions and receive informative responses from any uploaded document.
 
@@ -36,9 +36,9 @@ pip install -r requirements.txt
     cd <repo-directory>
     ```
 
-2. Add your API key (if needed) in a `.env` file:
+2. Add your API key in `.streamlit/secrets.toml` file:
     ```plaintext
-    GEMINI_API_KEY=your_api_key
+    GEMINI_API_KEY= your_api_key
     ```
 
 4. Prepare audio hardware for voice input.
