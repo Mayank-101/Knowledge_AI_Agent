@@ -1,0 +1,8 @@
+llama-index
+streamlit
+llama-index-embeddings-gemini
+llama-index-llms-gemini
+python-dotenv
+pyaudio
+openai-whisper
+gtts
